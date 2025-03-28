@@ -4,7 +4,8 @@ import { Container, Row, Col, Card, Tabs, Tab } from 'react-bootstrap';
 import { movieService } from '../../apis/config.js';
 import { MediaCard } from '../../component/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar,faHeart } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
+import { faStar, faCalendar, faFilm, faLanguage,faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const MovieDetailsPage = () => {
   const { id } = useParams();
